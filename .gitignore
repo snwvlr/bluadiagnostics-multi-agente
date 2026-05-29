@@ -1,0 +1,37 @@
+# Segredos - NUNCA commitar
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets/
+
+# Vector store gerado localmente (reproduzível, não precisa versionar)
+data/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Roteiro do vídeo - guia interno, não vai pro repositório
+docs/roteiro_video.md
+docs/roteiro_testes.md

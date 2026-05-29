@@ -1,0 +1,29 @@
+{
+  "descricao": "Snapshots simulados de wearables conectados ao Blua. Em produção viriam de HealthKit/Health Connect/API Oura. Aqui são mockados pro bônus de integração com wearables.",
+  "snapshots": {
+    "12345678901": {
+      "apple_health": {
+        "fonte": "apple_health",
+        "timestamp": "2026-05-18T08:42:00-03:00",
+        "frequencia_cardiaca_media_bpm": 88,
+        "frequencia_cardiaca_repouso_bpm": 78,
+        "spo2_percent": 97,
+        "passos_24h": 4210,
+        "sono_horas": 5.4,
+        "qualidade_sono": "ruim",
+        "hrv_ms": 28
+      },
+      "google_fit": {
+        "fonte": "google_fit",
+        "timestamp": "2026-05-18T08:42:00-03:00",
+        "frequencia_cardiaca_media_bpm": 72,
+        "frequencia_cardiaca_repouso_bpm": 65,
+        "spo2_percent": 98,
+        "passos_24h": 8540,
+        "sono_horas": 7.8,
+        "qualidade_sono": "boa",
+        "hrv_ms": 42
+      }
+    }
+  }
+}

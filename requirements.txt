@@ -1,0 +1,30 @@
+# BluaDiagnostics - dependências
+# Testado com Python 3.11.9
+#
+# Obs: a gente fixa o langchain junto com o langchain-core na mesma
+# família (0.3.x). Isso evita um conflito conhecido no Colab, onde a
+# versão pré-instalada do langchain briga com o langchain-core e dá o
+# erro "module 'langchain' has no attribute 'debug'".
+
+# LLM e embeddings (Gemini)
+google-generativeai==0.8.3
+
+# Orquestração multi-agente
+langgraph==0.2.45
+langchain-core==0.3.15
+langchain==0.3.7
+
+# RAG / vector store
+chromadb==0.5.18
+
+# Interface
+streamlit==1.39.0
+
+# Utilidades
+python-dotenv==1.0.1
+
+# Gráficos dos evals
+matplotlib==3.9.2
+
+# Testes (dev)
+pytest==8.3.3

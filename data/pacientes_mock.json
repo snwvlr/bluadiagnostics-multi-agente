@@ -1,0 +1,40 @@
+{
+  "descricao": "Base simulada de pacientes da Care Plus. Dados fictícios usados pelas tools. O paciente principal (Maria) segue exatamente o perfil que o enunciado da sprint definiu.",
+  "pacientes": {
+    "12345678901": {
+      "cpf": "12345678901",
+      "nome": "Maria",
+      "idade": 34,
+      "sexo": "F",
+      "alergias": ["dipirona"],
+      "medicamentos_em_uso": [
+        {"nome": "losartana", "dose": "50mg", "frequencia": "1x ao dia"}
+      ],
+      "comorbidades": ["hipertensão arterial"],
+      "ultima_consulta": {
+        "data": "2026-03-10",
+        "profissional": "Dr. João",
+        "especialidade": "clinico_geral",
+        "resumo": "Acompanhamento de hipertensão. Pressão controlada com losartana. Manter medicação."
+      }
+    },
+    "98765432100": {
+      "cpf": "98765432100",
+      "nome": "Carlos",
+      "idade": 58,
+      "sexo": "M",
+      "alergias": [],
+      "medicamentos_em_uso": [
+        {"nome": "metformina", "dose": "850mg", "frequencia": "2x ao dia"},
+        {"nome": "losartana", "dose": "50mg", "frequencia": "1x ao dia"}
+      ],
+      "comorbidades": ["diabetes tipo 2", "hipertensão arterial"],
+      "ultima_consulta": {
+        "data": "2026-02-20",
+        "profissional": "Dra. Helena Costa",
+        "especialidade": "endocrinologia",
+        "resumo": "Ajuste de metformina. Glicemia em queda. Reforçar dieta."
+      }
+    }
+  }
+}
